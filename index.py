@@ -1,1 +1,3 @@
+item = 'hi'
 
+print(hi)
