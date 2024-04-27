@@ -1,3 +1,6 @@
+import tkinter
+m = tkinter.Tk()
+
 def add (first, second):
     try:
         print('Here is your answer: ' + str(first + second))
@@ -48,17 +51,19 @@ while(ans == 'y'):
         elif(type == '-'):
             first = int(first)
             second = int(second)
-            subtract(first, second);
+            subtract(first, second)
         elif(type == '*'):
             first = int(first)
             second = int(second)
-            multiply(first, second);
+            multiply(first, second)
         elif(type == '/'):
             first = int(first)
             second = int(second)
-            divide(first, second);
+            divide(first, second)
         elif(type == '^'):
             first = int(first)
             second = int(second)
-            abs(first, second);
+            abs(first, second)
     except: print('You entered something wrong')
+
+    m.mainloop()
